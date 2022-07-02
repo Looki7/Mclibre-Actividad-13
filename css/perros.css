@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "SigmarOne";
+  src: url(../fonts/sigmar-one.woff);
+}
+
+body {
+  padding: 0 50px;
+  margin-bottom: 40px;
+  background-color: hsl(210, 70%, 95%);
+  font-family: sans-serif;
+  text-align: justify;
+  font-size: 16px;
+}
+
+h1 {
+  margin: 0;
+  font-family: "SigmarOne";
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+  color: hsl(210, 30%, 60%);
+  font-family: "SigmarOne";
+  font-size: 3rem;
+  text-transform: capitalize;
+  text-shadow: 3px 3px black;
+  clear: both;
+}
+
+hr {
+  clear: both;
+  width: 66%;
+  height: 10px;
+  border: black 1px solid;
+  border-radius: 5px;
+  margin: 40px auto;
+  background-color: hsl(210, 30%, 60%);
+}
+
+strong.club {
+  color: red;
+  background: white;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+i {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+time {
+  color: blue;
+}
+
+img {
+  border: hsl(210, 30%, 60%) 5px solid;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+img.izquierda {
+  float: left;
+  margin-right: 10px;
+}
+
+img.derecha {
+  float: right;
+  margin-left: 10px;
+}
+
+p.izquierda {
+  float: left;
+  width: 33%;
+}
+
+p.centrado {
+  text-align: center;
+}
+
+adress {
+  text-align: right;
+  display: block;
+}
